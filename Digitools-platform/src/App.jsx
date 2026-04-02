@@ -244,6 +244,112 @@ function App() {
             </div> 
 
 
+          <div className="py-16 md:py-20">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+                <p className="text-gray-600 mb-20">Choose the plan that fits your needs.</p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="border border-gray-300 rounded-3xl p-8">
+                    <h3 className="text-2xl font-bold">Starter</h3>
+                    <p className="text-gray-500">Perfect for getting started</p>
+                    <div className="text-5xl font-bold my-8">$0<span className="text-base font-normal text-gray-500">/Month</span></div>
+                    <ul className="space-y-3 text-sm mb-10">
+                      <li className="flex items-start gap-2"><img src={checkIcon} className="w-4 h-4 mt-1"/> Access to 10 free tools</li>
+                      <li className="flex items-start gap-2 "><img src={checkIcon} className="w-4 h-4 mt-1"/> Basic templates</li>
+                      <li className="flex items-start gap-2"><img src={checkIcon} className="w-4 h-4 mt-1"/> Community support</li>
+                    </ul>
+                    <button className="bg-purple-600 font-bold text-white w-full py-4 rounded-2xl cursor-pointer hover:bg-purple-500">Get Started Free</button>
+                  </div>
+
+                  <div className=" bg-purple-600 rounded-3xl p-8 relative scale-115  hover:shadow-2xl">
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-300 text-black text-xs font-bold px-6 py-1 rounded-full ">Most Popular</div>
+                    <h3 className="text-2xl font-bold text-white">Pro</h3>
+                    <p className="text-gray-200">Best for Professional</p>
+                    <div className="text-5xl font-bold my-8 text-white">$29<span className="text-base font-normal text-gray-200">/Month</span></div>
+                    <ul className="space-y-3 text-sm mb-10">
+                      <li className="flex items-start gap-2 text-white"><img src={checkIcon} className="w-4 h-4 mt-1 invert brightness-0"/> Access to all premium tools</li>
+                      <li className="flex items-start gap-2  text-white"><img src={checkIcon} className="w-4 h-4 mt-1 text-amber-50 invert brightness-0"/> Unlimited templates</li>
+                      <li className="flex items-start gap-2  text-white"><img src={checkIcon} className="w-4 h-4 mt-1 invert brightness-0"/> Priority support</li>
+                      <li className="flex items-start gap-2  text-white"><img src={checkIcon} className="w-4 h-4 mt-1 invert brightness-0"/> Advanced analytics</li>
+                    </ul>
+                    <button className="bg-yellow-300 text-black font-bold w-full py-4 rounded-2xl cursor-pointer hover:bg-yellow-200">Start Pro Trial</button>
+                  </div>
+
+                  <div className="border border-gray-300 rounded-3xl p-8">
+                    <h3 className="text-2xl font-bold">Enterprise</h3>
+                    <p className="text-gray-500">For team and business</p>
+                    <div className="text-5xl font-bold my-8">$99<span className="text-base font-normal text-gray-500">/Month</span></div>
+                    <ul className="space-y-3 text-sm mb-10">
+                      <li className="flex items-start gap-2"><img src={checkIcon} className="w-4 h-4 mt-1"/> Everything in pro</li>
+                      <li className="flex items-start gap-2 "><img src={checkIcon} className="w-4 h-4 mt-1"/> Team collaboration</li>
+                      <li className="flex items-start gap-2"><img src={checkIcon} className="w-4 h-4 mt-1"/> Dedicated support</li>
+                      <li className="flex items-start gap-2"><img src={checkIcon} className="w-4 h-4 mt-1"/> Custom branding</li>
+                    </ul>
+                    <button className="bg-purple-600 font-bold text-white w-full py-4 rounded-2xl cursor-pointer hover:bg-purple-500">Contact Sales</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          <div className="bg-gradient-to-r from-purple-600 to-violet-600 text-white py-16 md:py-20">
+            <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready To Tranform Your Workflow</h2>
+                <p className="text-lg md:text-xl mb-10">Join thousnds of profesionals who are already using Digitools</p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <button className="bg-white text-purple-700 px-10 py-4 rounded-full font-semibold cursor-pointer">Explore Products</button>
+                  <button className="border-2 border-white  px-10 py-4 rounded-full font-semibold hover:bg-white/10 cursor-pointer"> View Pricing</button>
+                </div>
+            </div>
+          </div>
+
+          <footer className="bg-neutral-800 text-gray-400 py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+              <div className=" grid grid-cols-2 md:grid-cols-4 gap-10">
+                <div className="col-span-2 md:col-span-1">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="text-white text-2xl font-bold">Digitools</span>
+                  </div>
+                  <p className="text-sm">Premium digital tools for creators and business</p>
+                </div>
+
+                <div>
+                  <h4 className="text-white font-semibold mb-5">Products</h4>
+                  <div className="flex flex-col gap-1 text-sm">
+                    <button className="text-left hover:text-white transition">Features</button>
+                    <button className="text-left hover:text-white transition">Pricing</button>
+                    <button className="text-left hover:text-white transition">Template</button>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold mb-5">Company</h4>
+                  <div className="flex flex-col gap-1 text-sm">
+                    <button className="text-left hover:text-white transition">About</button>
+                    <button className="text-left hover:text-white transition">Blog</button>
+                    <button className="text-left hover:text-white transition">Careers</button>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="text-white font-semibold mb-5">Resources</h4>
+                  <div className="flex flex-col gap-1 text-sm">
+                    <button className="text-left hover:text-white transition">Help Center</button>
+                    <button className="text-left hover:text-white transition">Community</button>
+                    <button className="text-left hover:text-white transition">Contact</button>
+                  </div>
+                </div>
+
+                <div className="border-t border-gray-600 mt-16 pt-8 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
+                  <p> 2026 DigiTools. All right reserved</p>
+                  <div className="flex gap-6">
+                    <button className=" hover:text-white transition">Privacy</button>
+                    <button className=" hover:text-white transition">Terms</button>
+                    <button className=" hover:text-white transition">Cookies</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
             
       </div>
       <ToastContainer position="top-center" autoClose={2000}/>
